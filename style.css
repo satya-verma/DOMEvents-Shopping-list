@@ -1,0 +1,84 @@
+/* added - css */
+
+* {
+  box-sizing: border-box;
+}
+header{
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0, 2px;
+  padding: 0;
+}
+#div-1{
+  text-align: center;
+}
+
+#userinput,#enter{
+  padding: 4px;
+}
+
+ul li {
+  font-size: 1.5em;
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  padding: 10px;
+  background-color: whitesmoke;
+  display: block;
+  position: relative;
+}
+
+ul li:hover {
+  background-color: #eee;
+  cursor: default;
+}
+
+.tick {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 9%;
+  padding: 12px 16px;
+  transform: translate(0%, -50%);
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  padding: 12px 16px;
+  transform: translate(0%, -50%);
+}
+
+.close:hover {
+  background-color: rgb(226, 21, 21);
+}
+
+.tick:hover {
+  background-color: rgb(21, 226, 100);
+}
+
+/* added - css */
+
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: -1px -1px 0 firebrick, -2px -2px 0 firebrick, -3px -3px 0 firebrick, -4px -4px 0 firebrick, -5px -5px 0 firebrick, -6px -6px 0 firebrick, -7px -7px 0 firebrick, -8px -8px 0 firebrick, -30px 20px 40px dimgrey;
+}
+
+.done {
+  text-decoration: line-through;
+  background-color: aquamarine;
+}
+
+.done:hover {
+  text-decoration: line-through;
+  background-color: aquamarine;
+}
